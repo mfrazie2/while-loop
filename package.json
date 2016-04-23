@@ -4,7 +4,8 @@
   "description": "while-loop example using spectacle-code-slide",
   "main": "script.js",
   "scripts": {
-    "build": "browserify script.js -o dist/bundle.js -t babelify --debug"
+    "build": "browserify script.js -o dist/bundle.js -t babelify --debug",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Thr1ve",
   "license": "MIT",
